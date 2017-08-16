@@ -1,0 +1,25 @@
+{
+  "name": "arms-backend",
+  "version": "1.0.0",
+  "description": "Records Management System Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ARMS"
+  ],
+  "author": "edward_suwirya@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.11.5",
+    "nodemailer": "^4.0.1",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
